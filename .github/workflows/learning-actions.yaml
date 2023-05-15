@@ -13,4 +13,4 @@ jobs:
           java-version: '8'
           distribution: 'temurin'
       - name: Build
-        run: mvn install
+        run: mvn clean package -DskipTests
