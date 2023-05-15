@@ -1,5 +1,8 @@
 name: Learning Github Actions
-on: [push]
+on:
+  push:
+    branch: 
+    - main
 jobs: 
   github-action-job:
     name: Run Github Action Jobs
