@@ -1,2 +1,9 @@
 name: Learning Github Actions
 on: [push]
+jobs: 
+  github-action-job:
+    name: Run Github Action Jobs
+    runs-on: 'ubuntu-latest'
+    steps: 
+      name: Checkout
+      uses: actions/checkout@v3
