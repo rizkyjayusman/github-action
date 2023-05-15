@@ -1,1 +1,2 @@
 name: Learning Github Actions
+on: [push]
